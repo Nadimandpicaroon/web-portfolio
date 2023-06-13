@@ -1,11 +1,12 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;  
 }
 h1{
     font-size: 50px; 
 }
 .aaa{
-    color: goldenrod;
+    color: rgb(55, 60, 194);
 }
 .bbb{
     width: 40%;
@@ -16,4 +17,66 @@ h1{
 .ccc{
     height: 50%;
     width: 50%;
+}
+.ddd{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 100px;
+}
+.eee{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, orange, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700; 
+}
+.fff{
+    height: 100%;
+    width: 100%;
+    }
+.ooo{
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.iii{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.bbb1{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 70%;
+}
+.court-area{
+    background-image: url(images/exp-bg.png);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+#invol{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightsalmon,tomato);
+    border-image-slice: 1;
+}
+#rafa{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+h4{
+    color: gold;
+}
+footer{
+    text-align: center;
+    font size: 13px;
 }
